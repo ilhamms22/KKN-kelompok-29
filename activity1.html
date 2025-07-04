@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KKN Desa Maju Bersama - Detail Aktivitas 1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-sans bg-gray-50">
+    <nav class="bg-[#0C253D] text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="home.html" class="flex items-center space-x-3">
+                <img src="logo.png" alt="Logo KKN" class="h-10 w-auto">
+                <span class="text-xl font-bold text-white">KKN 29 Desa Sukalilah</span>
+            </a>
+            <div class="hidden md:flex space-x-6">
+                <a href="home.html" class="hover:text-blue-300 transition">Home</a>
+                <a href="activities.html" class="hover:text-blue-300 transition">Activities</a>
+                <a href="gallery.html" class="hover:text-blue-300 transition">Gallery</a>
+                <a href="profile-menu.html" class="hover:text-blue-300 transition">About</a>
+            </div>
+            <button class="md:hidden text-xl" id="mobile-menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="md:hidden hidden bg-[#0a1e30] py-2" id="mobile-menu">
+            <div class="container mx-auto px-4 flex flex-col space-y-2">
+                <a href="home.html" class="py-1 hover:text-blue-300 transition">Home</a>
+                <a href="activities.html" class="py-1 hover:text-blue-300 transition">Activities</a>
+                <a href="gallery.html" class="py-1 hover:text-blue-300 transition">Gallery</a>
+                <a href="profile-menu.html" class="py-1 hover:text-blue-300 transition">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="activity1-detail" class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <a href="activities.html" class="mb-6 text-[#0C253D] hover:text-[#0a1e30] transition inline-block">
+                    <i class="fas fa-arrow-left mr-2"></i> Kembali ke Kegiatan
+                </a>
+                
+                <h2 class="text-3xl font-bold text-[#0C253D] mb-6">Program Pendidikan</h2>
+                
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Education Program" class="w-full rounded-lg mb-8">
+                
+                <div class="prose max-w-none">
+                    <p class="text-gray-700 mb-4">
+                        Program pendidikan merupakan salah satu fokus utama KKN kami di Desa Maju. Kami menyadari bahwa pendidikan adalah kunci untuk membuka masa depan yang lebih baik bagi anak-anak di desa ini.
+                    </p>
+                    
+                    <h3 class="text-xl font-bold text-[#0C253D] mt-6 mb-3">Aktivitas Utama</h3>
+                    <ul class="list-disc pl-6 mb-6 text-gray-700">
+                        <li class="mb-2">Bimbingan belajar rutin setiap sore hari</li>
+                        <li class="mb-2">Penyediaan perpustakaan mini dengan buku-buku edukatif</li>
+                        <li class="mb-2">Pelatihan keterampilan dasar komputer</li>
+                        <li class="mb-2">Penyuluhan pentingnya pendidikan tinggi</li>
+                    </ul>
+                    
+                    <h3 class="text-xl font-bold text-[#0C253D] mt-6 mb-3">Pencapaian</h3>
+                    <p class="text-gray-700 mb-4">
+                        Dalam 4 minggu pelaksanaan program, kami telah berhasil membantu 45 anak-anak desa meningkatkan kemampuan akademik mereka. Beberapa pencapaian penting:
+                    </p>
+                    <ul class="list-disc pl-6 mb-6 text-gray-700">
+                        <li class="mb-2">Peningkatan nilai rata-rata ujian harian sebesar 15%</li>
+                        <li class="mb-2">10 anak telah lancar membaca dan menulis</li>
+                        <li class="mb-2">Terbentuknya kelompok belajar mandiri yang akan terus berlanjut</li>
+                    </ul>
+                    
+                    <h3 class="text-xl font-bold text-[#0C253D] mt-6 mb-3">Testimoni</h3>
+                    <div class="bg-gray-100 p-6 rounded-lg mb-6">
+                        <p class="italic text-gray-700 mb-2">"Anak saya sekarang lebih semangat belajar setelah mengikuti bimbingan dari adik-adik KKN. Nilainya di sekolah juga meningkat."</p>
+                        <p class="font-semibold text-[#0C253D]">- Ibu Siti, Warga Desa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#0C253D] text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">KKN 29 Desa Sukalilah</h3>
+                    <p class="mb-4">Kuliah Kerja Nyata Universitas Islam Negeri Sunan Gunung Djati Bandung.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.instagram.com/kkn29.sukalilahgarut?igsh=NXBiOGZtMDhrbWY3" class="text-white hover:text-yellow-300 transition"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@kkn.29.garut.suka?is_from_webapp=1&sender_device=pc" class="text-white hover:text-yellow-300 transition"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Tautan Cepat</h3>
+                    <ul class="space-y-2">
+                        <li><a href="home.html" class="hover:text-yellow-300 transition">Home</a></li>
+                        <li><a href="activities.html" class="hover:text-yellow-300 transition">Activities</a></li>
+                        <li><a href="gallery.html" class="hover:text-yellow-300 transition">Gallery</a></li>
+                        <li><a href="profile-menu.html" class="hover:text-yellow-300 transition">About</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Kontak Kami</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-2"></i>
+                            <span>Sukalilah, Cibatu, Garut Regency, West Java</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>kkn29garut@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-[#0C253D] mt-8 pt-6 text-center">
+                <p>© 2025 KKN 29 Desa Sukalilah. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

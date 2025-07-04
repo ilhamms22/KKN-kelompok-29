@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KKN Desa Maju Bersama - Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-sans bg-gray-50">
+    <nav class="bg-[#0C253D] text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="home.html" class="flex items-center space-x-3">
+                <img src="logo.png" alt="Logo KKN" class="h-10 w-auto">
+                <span class="text-xl font-bold text-white">KKN 29 Desa Sukalilah</span>
+            </a>
+            <div class="hidden md:flex space-x-6">
+                <a href="home.html" class="hover:text-blue-300 transition">Home</a>
+                <a href="activities.html" class="hover:text-blue-300 transition">Activities</a>
+                <a href="gallery.html" class="text-blue-300 transition">Gallery</a>
+                <a href="profile-menu.html" class="hover:text-blue-300 transition">About</a>
+            </div>
+            <button class="md:hidden text-xl" id="mobile-menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="md:hidden hidden bg-[#0a1e30] py-2" id="mobile-menu">
+            <div class="container mx-auto px-4 flex flex-col space-y-2">
+                <a href="home.html" class="py-1 hover:text-blue-300 transition">Home</a>
+                <a href="activities.html" class="py-1 hover:text-blue-300 transition">Activities</a>
+                <a href="gallery.html" class="py-1 hover:text-blue-300 transition">Gallery</a>
+                <a href="profile-menu.html" class="py-1 hover:text-blue-300 transition">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="gallery-content" class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-[#0C253D] mb-12">Galeri Kegiatan</h2>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="gallery-item overflow-hidden rounded-lg shadow-md">
+                    <img src="https://images.unsplash.com/photo-1541178735493-479c1a27ed24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Gallery 1" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="gallery-item overflow-hidden rounded-lg shadow-md">
+                    <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Gallery 2" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="gallery-item overflow-hidden rounded-lg shadow-md">
+                    <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Gallery 3" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="gallery-item overflow-hidden rounded-lg shadow-md">
+                    <img src="https://images.unsplash.com/photo-1527525443983-6e60c75fff46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1405&q=80" alt="Gallery 4" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="gallery-item overflow-hidden rounded-lg shadow-md">
+                    <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Gallery 5" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="gallery-item overflow-hidden rounded-lg shadow-md">
+                    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Gallery 6" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="gallery-item overflow-hidden rounded-lg shadow-md">
+                    <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Gallery 7" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="gallery-item overflow-hidden rounded-lg shadow-md">
+                    <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Gallery 8" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+
+
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#0C253D] text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">KKN 29 Desa Sukalilah</h3>
+                    <p class="mb-4">Kuliah Kerja Nyata Universitas Islam Negeri Sunan Gunung Djati Bandung.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.instagram.com/kkn29.sukalilahgarut?igsh=NXBiOGZtMDhrbWY3" class="text-white hover:text-yellow-300 transition"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@kkn.29.garut.suka?is_from_webapp=1&sender_device=pc" class="text-white hover:text-yellow-300 transition"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Tautan Cepat</h3>
+                    <ul class="space-y-2">
+                        <li><a href="home.html" class="hover:text-yellow-300 transition">Home</a></li>
+                        <li><a href="activities.html" class="hover:text-yellow-300 transition">Activities</a></li>
+                        <li><a href="gallery.html" class="hover:text-yellow-300 transition">Gallery</a></li>
+                        <li><a href="profile-menu.html" class="hover:text-yellow-300 transition">About</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Kontak Kami</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-2"></i>
+                            <span>Sukalilah, Cibatu, Garut Regency, West Java</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>kkn29garut@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-[#0C253D] mt-8 pt-6 text-center">
+                <p>© 2025 KKN 29 Desa Sukalilah. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
